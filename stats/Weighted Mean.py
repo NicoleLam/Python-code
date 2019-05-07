@@ -1,0 +1,5 @@
+n = int(input())
+a = list(map(int, input().strip().split()))
+b = list(map(int, input().strip().split()))
+m = sum([x*y for x,y in zip(a,b)])
+print(round((m/sum(b)),1))
