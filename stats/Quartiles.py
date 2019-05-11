@@ -1,3 +1,16 @@
+'''
+Input:
+The first line contains an integer, n, denoting the number of elements in the array. 
+The second line contains n space-separated integers describing the array's elements.
+
+Output:
+Print 3 lines of output in the following order:
+
+The first line should be the value of first quartile ()
+The second line should be the value of second quartile (), 
+The third line should be the value of third quartile ().
+'''
+
 import statistics
 
 n = int(input())
